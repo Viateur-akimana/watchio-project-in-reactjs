@@ -1,9 +1,12 @@
-import React from 'react'
+import { Paper } from "@mui/material";
+import React from "react";
 
 const SearchItem = () => {
   return (
-    <div>SearchItem</div>
-  )
-}
+    <Paper component="form" onSubmit={() => {}} sx={{borderRadius:'20px',pl:'2px', border:'1px solid #e3e3e3'} }>
+      SearchItem
+    </Paper>
+  );
+};
 
-export default SearchItem
+export default SearchItem;
